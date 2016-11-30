@@ -32,9 +32,9 @@ public class SqlGatewayServlet extends HttpServlet {
       // create a database with the same name as your database on
       // openshift and to then modify the next line of code to change
       // murach to your app name.
-      String dbURL = "jdbc:mysql://localhost:3306/murach";
-      String username = "root";
-      String password = "mysqluser";
+      String dbURL = "jdbc:mysql://localhost:3307/purplehat";
+      String username = "adminnpUqXG1";
+      String password = "8JtWSVbjsy7L";
 
             //Determine if running on OpenShift by getting value of
       //OpenShift environement variable. If it is set (non null) then
